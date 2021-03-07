@@ -1,12 +1,17 @@
 set -x
 set -e
 
-#PEM_FILE=/home/ubuntu/aws-pem/cse222a-frankfurt.pem
-#DATA_DIR=/home/ubuntu/pantheon/eval/virginia-frankfurt-1f
+PEM_FILE=/home/ubuntu/aws-pem/cse222a-oregon.pem
+IP=52.39.71.112
+DATA_DIR=/home/ubuntu/pantheon/eval/frankfurt-oregon-1f
 
-PEM_FILE=/home/ubuntu/aws-pem/cse222a-virginia.pem
-IP=44.192.83.123
-DATA_DIR=/home/ubuntu/pantheon/eval/frankfurt-virginia-1f
+# PEM_FILE=/home/ubuntu/aws-pem/cse222a-frankfurt.pem
+# IP=3.124.185.209
+# DATA_DIR=/home/ubuntu/pantheon/eval/oregon-frankfurt-1f
+
+# PEM_FILE=/home/ubuntu/aws-pem/cse222a-virginia.pem
+# IP=44.192.83.123
+# DATA_DIR=/home/ubuntu/pantheon/eval/frankfurt-virginia-1f
 
 # 52.39.71.112 oregon
 # 44.192.83.123 virginia
