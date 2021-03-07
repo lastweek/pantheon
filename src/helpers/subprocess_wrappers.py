@@ -1,11 +1,12 @@
 import sys
 import subprocess
+import os
 
 
 def print_cmd(cmd):
     if isinstance(cmd, list):
         cmd_to_print = ' '.join(cmd).strip()
-    elif isinstance(cmd, (str, unicode)):
+    elif isinstance(cmd, (bytes, str)):
         cmd_to_print = cmd.strip()
     else:
         cmd_to_print = ''
@@ -31,4 +32,4 @@ def check_output(cmd, **kwargs):
 
 def Popen(cmd, **kwargs):
     print_cmd(cmd)
-    return subprocess.Popen(cmd, **kwargs)
+    return subprocess.Popen(' '.join(cmd), **kwargs)
