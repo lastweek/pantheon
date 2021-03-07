@@ -27,14 +27,6 @@ schemes:
     name: SCReAM
     color: pink
     marker: '1'
-  webrtc:
-    name: WebRTC media
-    color: brown
-    marker: 'v'
-  copa:
-    name: Copa
-    color: red
-    marker: 'o'
   taova:
     name: TaoVA-100x
     color: gray
